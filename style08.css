@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background: #edeaff;
+}
+.stopwatch {
+    width:90%;
+    max-width: 600px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+    padding:40px 10px;
+    margin:200px auto 0;
+    color:#fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.stopwatch h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+.buttons img {
+    width:50px;
+    margin:0 20px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width:80px;
+}

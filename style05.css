@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    width:100%;
+    min-height: 100vh;
+    color:#fff;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding-top:4%;
+    padding-left:10%;
+}
+.container h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.container button {
+    background: linear-gradient(#9418fd, #571094);
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding:16px 25px;
+    margin:30px 0 20px;
+    cursor:pointer;
+}
+.input-box {
+    position:relative;
+    width:100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color:#333;
+    padding:20px;
+    margin:20px 0;
+    outline:none;
+    border-radius: 5px;
+}
+.notes-container h6 {
+    width:25px;
+    font-size: 15px;
+    color: black;
+    position:relative;
+    bottom: 37px;
+    left: 455px;
+    cursor: pointer;
+}

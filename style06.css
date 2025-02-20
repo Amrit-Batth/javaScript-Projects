@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.quote-gen {
+    background: #fff;
+    width:700px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15);
+}
+.quote-gen h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.quote-gen h2::after {
+    content:'';
+    width:75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(23,124,229);
+    position:absolute;
+    bottom:-10px;
+    left:50%;
+    transform:  translateX(-50%);
+}
+.quote-gen blockquote {
+    font-size: 26px;
+    min-height:110px;
+}
+.quote-gen blockquote ::after, .quote-gen blockquote ::before {
+    content: '"';
+}
+.quote-gen span {
+    display: block;
+    margin-top: 10px;
+    float:right;
+
+    position:relative;
+}
+.quote-gen span::before{
+    content: '';
+    width:20px;
+    height:2px;
+    background: rgb(23,124,229);
+    position:absolute;
+    top:50%;
+    left: -30px;
+}
+.quote-gen button {
+    background: rgb(23,124,229);
+    color:#fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23,124,229);
+    width:150px;
+    height:50px;
+    align-items: center;
+    margin:5px;
+    cursor: pointer;
+}
